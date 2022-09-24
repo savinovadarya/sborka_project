@@ -2,7 +2,6 @@
 .idea
 node_modules
 bower_components
-build
 *.log
 .fuse_hidden*
 build.zip
@@ -10,3 +9,19 @@ temp/
 *.sublime*
 package-lock.json
 yarn.lock
+src
+gulp-tasks
+css
+.vscode
+.babelrc
+.browserslistrc
+.editorconfig
+*.json
+.prettierrc
+build.sh
+config.js
+gulpfile.babel.js
+paths.js
+README-EN.md
+README.md
+webpack.config.js
