@@ -33,6 +33,66 @@
 
 // --- screen ------------------------------------------------------------------
 
+@media (max-width: 1200px) {
+	.header {
+		min-width: 1200px;
+	}
+	.line {
+		min-width: 1200px;
+	}
+	.header__logo {
+		margin: 0px 21px 0px 30px !important;
+	}
+	.btn {
+		margin: 0px 8px 0px 30px !important;
+	}
+	.basket {
+		min-width: 410px !important;
+	}
+	.legend {
+		margin: 0px 92px 60px 84px !important;
+	}
+	.wrapper {
+		margin: 0px 0px 0px -31px !important;
+	}
+	.product {
+		padding: 41px 40px 0px 39px !important;
+	}
+	.promocode {
+		padding: 42px 41px 40px 39px !important;
+	}
+	.sum {
+		padding: 50px 54px 40px 40px !important;
+	}
+}
+
+@media (max-width: 768px) {
+	.basket {
+		display: none;
+	}
+	.header {
+		min-width: 768px;
+	}
+	.billing {
+		min-width: 768px !important;
+	}
+	.line {
+		min-width: 768px;
+	}
+	.nav {
+		display: none !important;
+	}
+	.burger {
+		display: block !important;
+	}
+	.btn {
+		margin: 0px 23px 0px 30px !important;
+	}
+	.wrapper {
+		margin: 0px 0px 0px -8px !important;
+	}
+}
+
 @mixin screen($min, $max, $orientation: false) {
 	@include mq($min-width: $min, $max-width: $max, $orientation: $orientation) {
 		@content;
